@@ -76,10 +76,8 @@ X_test = sc_X.fit_transform(X_test)
 y_train = sc_y.fit_transform(y_train)
 y_test = sc_y.fit_transform(y_test)
  
-#Linear Regrssion
 from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
 regressor.fit(X_train, y_train)
 
-print
  
